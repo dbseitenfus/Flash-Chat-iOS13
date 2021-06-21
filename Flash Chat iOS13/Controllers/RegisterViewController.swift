@@ -21,7 +21,7 @@ class RegisterViewController: UIViewController {
                 if let e = error {
                     self.showToast(message: e.localizedDescription, font: .systemFont(ofSize: 12))
                 }else{
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: Constants.regitsterSegue, sender: self)
                 }
             }
         }
