@@ -88,3 +88,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+Flash Chat iOS13/GoogleService-Info.plist
