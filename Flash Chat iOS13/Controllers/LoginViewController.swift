@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
                 if let e = error {
                     self?.showToast(message: e.localizedDescription, font: .systemFont(ofSize: 12))
                 }else{
-                    self?.performSegue(withIdentifier: Constants.loginSegue, sender: self)
+                    self?.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
                 
             }
